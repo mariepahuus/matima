@@ -1,0 +1,22 @@
+main{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+
+}
+
+ @mixin border-radius ($radius, $boxH, $boxW, $boxBG){
+    border-radius: $radius;
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -ms-border-radius: $radius;
+    height:$boxH;
+    width:$boxW;
+    background-color:$boxBG;
+ }
+  
+ #box_1{
+  @include border-radius(10px, 500px, 250px,lightgreen
+  )
+  }
+

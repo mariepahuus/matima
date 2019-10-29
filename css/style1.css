@@ -1,0 +1,15 @@
+main {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between; }
+
+#box_1 {
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  height: 500px;
+  width: 250px;
+  background-color: lightgreen; }
+
+/*# sourceMappingURL=style1.css.map */
