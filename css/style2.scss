@@ -1,6 +1,6 @@
 $bgColor: lightblue;
 $numer: 3 + 3;
-$string: 'hello' + ' hola';
+$string: 'hel \N lo' + ' hola';
 $boolean: false;
 
 body {
@@ -18,12 +18,12 @@ body {
 }
 
 #box_2 {
-    @include border-radius(5px, 400px, 250px, lightyellow);
+    @include border-radius(5px, 500px, 250px, lightyellow);
   
 
 }
 
 #box_2:after {
-      content: $string;
+      
       flex-direction: column;
 }

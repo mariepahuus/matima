@@ -6,12 +6,11 @@ body {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
-  height: 400px;
+  height: 500px;
   width: 250px;
   background-color: lightyellow; }
 
 #box_2:after {
-  content: "hello hola";
   flex-direction: column; }
 
 /*# sourceMappingURL=style2.css.map */
