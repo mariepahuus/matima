@@ -1,0 +1,29 @@
+$bgColor: lightblue;
+$numer: 3 + 3;
+$string: 'hello' + ' hola';
+$boolean: false;
+
+body {
+    background-color: $bgColor;
+}
+
+@mixin border-radius($radius, $boxH, $boxW, $boxBG) {
+    border-radius: $radius;
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -ms-border-radius: $radius;
+    height: $boxH;
+    width: $boxW;
+    background-color: $boxBG;
+}
+
+#box_2 {
+    @include border-radius(5px, 400px, 250px, lightyellow);
+  
+
+}
+
+#box_2:after {
+      content: $string;
+      flex-direction: column;
+}
